@@ -1,0 +1,7 @@
+@media (min-width: 481px) and (max-width: 567px){
+	.Wrapper{
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+}
