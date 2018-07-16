@@ -1,3 +1,6 @@
-        < ?php 
-	      header("Location: http://vote-my-vote-app.apps.sreejith.io/"); 
-	      ?>
+<html>
+<?php
+// This results in an error.
+// The output above is before the header() call
+header('Location: http://vote-my-vote-app.apps.sreejith.io/');
+?>
